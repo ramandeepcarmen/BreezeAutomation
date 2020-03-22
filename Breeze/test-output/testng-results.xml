@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="1844563" started-at="2020-03-04T10:16:15Z" finished-at="2020-03-04T10:46:59Z">
+    <groups>
+    </groups>
+    <test name="MedicalOnly_NC1_Claim" duration-ms="404325" started-at="2020-03-04T10:16:15Z" finished-at="2020-03-04T10:22:59Z">
+      <class name="com.Breeze.MedicalOnly_NC1">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Breeze.MedicalOnly_NC1@448ff1a8]" name="setUp" is-config="true" duration-ms="3966" started-at="2020-03-04T10:16:15Z" finished-at="2020-03-04T10:16:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="MedicalOnly_NC1_Claim()[pri:0, instance:com.Breeze.MedicalOnly_NC1@448ff1a8]" name="MedicalOnly_NC1_Claim" duration-ms="396721" started-at="2020-03-04T10:16:19Z" finished-at="2020-03-04T10:22:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MedicalOnly_NC1_Claim -->
+        <test-method status="PASS" signature="Logout()[pri:0, instance:com.Breeze.MedicalOnly_NC1@448ff1a8]" name="Logout" is-config="true" duration-ms="3588" started-at="2020-03-04T10:22:55Z" finished-at="2020-03-04T10:22:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- com.Breeze.MedicalOnly_NC1 -->
+    </test> <!-- MedicalOnly_NC1_Claim -->
+    <test name="IndemnityMedical_SC2" duration-ms="521679" started-at="2020-03-04T10:22:59Z" finished-at="2020-03-04T10:31:41Z">
+      <class name="com.Breeze.IndemnityMedical_SC2">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Breeze.IndemnityMedical_SC2@3ec300f1]" name="setUp" is-config="true" duration-ms="5459" started-at="2020-03-04T10:22:59Z" finished-at="2020-03-04T10:23:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="IndemnityMedical_SC2_Claim()[pri:0, instance:com.Breeze.IndemnityMedical_SC2@3ec300f1]" name="IndemnityMedical_SC2_Claim" duration-ms="512634" started-at="2020-03-04T10:23:05Z" finished-at="2020-03-04T10:31:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IndemnityMedical_SC2_Claim -->
+        <test-method status="PASS" signature="Logout()[pri:0, instance:com.Breeze.IndemnityMedical_SC2@3ec300f1]" name="Logout" is-config="true" duration-ms="3583" started-at="2020-03-04T10:31:38Z" finished-at="2020-03-04T10:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- com.Breeze.IndemnityMedical_SC2 -->
+    </test> <!-- IndemnityMedical_SC2 -->
+    <test name="MedicalOnly_TN3" duration-ms="401092" started-at="2020-03-04T10:31:41Z" finished-at="2020-03-04T10:38:22Z">
+      <class name="com.Breeze.MedicalOnly_TN3">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Breeze.MedicalOnly_TN3@2b546384]" name="setUp" is-config="true" duration-ms="3652" started-at="2020-03-04T10:31:41Z" finished-at="2020-03-04T10:31:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="MedicalOnly_TN3_Claim()[pri:0, instance:com.Breeze.MedicalOnly_TN3@2b546384]" name="MedicalOnly_TN3_Claim" duration-ms="393853" started-at="2020-03-04T10:31:45Z" finished-at="2020-03-04T10:38:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MedicalOnly_TN3_Claim -->
+        <test-method status="PASS" signature="Logout()[pri:0, instance:com.Breeze.MedicalOnly_TN3@2b546384]" name="Logout" is-config="true" duration-ms="3581" started-at="2020-03-04T10:38:19Z" finished-at="2020-03-04T10:38:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- com.Breeze.MedicalOnly_TN3 -->
+    </test> <!-- MedicalOnly_TN3 -->
+    <test name="IndemnityMedical_VA4" duration-ms="517007" started-at="2020-03-04T10:38:22Z" finished-at="2020-03-04T10:46:59Z">
+      <class name="com.Breeze.IndemnityMedical_VA4">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Breeze.IndemnityMedical_VA4@240237d2]" name="setUp" is-config="true" duration-ms="5411" started-at="2020-03-04T10:38:22Z" finished-at="2020-03-04T10:38:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="IndemnityMedical_VA4_Claim()[pri:0, instance:com.Breeze.IndemnityMedical_VA4@240237d2]" name="IndemnityMedical_VA4_Claim" duration-ms="507753" started-at="2020-03-04T10:38:28Z" finished-at="2020-03-04T10:46:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IndemnityMedical_VA4_Claim -->
+        <test-method status="PASS" signature="Logout()[pri:0, instance:com.Breeze.IndemnityMedical_VA4@240237d2]" name="Logout" is-config="true" duration-ms="3840" started-at="2020-03-04T10:46:55Z" finished-at="2020-03-04T10:46:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- com.Breeze.IndemnityMedical_VA4 -->
+    </test> <!-- IndemnityMedical_VA4 -->
+  </suite> <!-- Suite -->
+</testng-results>

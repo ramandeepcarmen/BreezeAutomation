@@ -1,0 +1,1418 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset='utf-8' /> 
+	<meta name='description' content='' />
+	<meta name='robots' content='noodp, noydir' />
+	<meta name='viewport' content='width=device-width, initial-scale=1' />
+	<meta id="timeStampFormat" name="timeStampFormat" content='MMM d, yyyy hh:mm:ss a'/>
+	
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css' />
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+	<link href='https://cdn.rawgit.com/extent-framework/extent-github-cdn/99c671a/v3html/css/extent.css' type='text/css' rel='stylesheet' />
+	
+	<title>C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\ExtentReports\extentreport2020-03-02 21_30_26_197.html</title>
+
+	<style type='text/css'>
+		/* json-tree */
+		.jstBracket,.jstComma,.jstValue{white-space:pre-wrap}.jstValue{font-size:10px;font-weight:400;font-family:"Lucida Console",Monaco,monospace}.jstProperty{color:#666;word-wrap:break-word}.jstBool{color:#2525CC}.jstNum{color:#D036D0}.jstNull{color:gray}.jstStr{color:#2DB669}.jstFold:after{content:' -';cursor:pointer}.jstExpand{white-space:normal}.jstExpand:after{content:' +';cursor:pointer}.jstFolded{white-space:normal!important}.jstHiddenBlock{display:none}
+	</style>
+	
+	<script type="text/javascript">
+		/*! json-tree - v0.2.2 - 2017-09-25, MIT LICENSE */
+		var JSONTree=function(){var n={"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#x27;","/":"&#x2F;"},t=0,r=0;this.create=function(n,t){return r+=1,N(u(n,0,!1),{class:"jstValue"})};var e=function(t){return t.replace(/[&<>'"]/g,function(t){return n[t]})},s=function(){return r+"_"+t++},u=function(n,t,r){if(null===n)return f(r?t:0);switch(typeof n){case"boolean":return l(n,r?t:0);case"number":return i(n,r?t:0);case"string":return o(n,r?t:0);default:return n instanceof Array?a(n,t,r):c(n,t,r)}},c=function(n,t,r){var e=s(),u=Object.keys(n).map(function(r){return j(r,n[r],t+1,!0)}).join(m()),c=[g("{",r?t:0,e),N(u,{id:e}),p("}",t)].join("\n");return N(c,{})},a=function(n,t,r){var e=s(),c=n.map(function(n){return u(n,t+1,!0)}).join(m());return[g("[",r?t:0,e),N(c,{id:e}),p("]",t)].join("\n")},o=function(n,t){var r=e(JSON.stringify(n));return N(v(r,t),{class:"jstStr"})},i=function(n,t){return N(v(n,t),{class:"jstNum"})},l=function(n,t){return N(v(n,t),{class:"jstBool"})},f=function(n){return N(v("null",n),{class:"jstNull"})},j=function(n,t,r){var s=v(e(JSON.stringify(n))+": ",r),c=N(u(t,r,!1),{});return N(s+c,{class:"jstProperty"})},m=function(){return N(",\n",{class:"jstComma"})},N=function(n,t){return d("span",t,n)},d=function(n,t,r){return"<"+n+Object.keys(t).map(function(n){return" "+n+'="'+t[n]+'"'}).join("")+">"+r+"</"+n+">"},g=function(n,t,r){return N(v(n,t),{class:"jstBracket"})+N("",{class:"jstFold",onclick:"JSONTree.toggle('"+r+"')"})};this.toggle=function(n){var t=document.getElementById(n),r=t.parentNode,e=t.previousElementSibling;""===t.className?(t.className="jstHiddenBlock",r.className="jstFolded",e.className="jstExpand"):(t.className="",r.className="",e.className="jstFold")};var p=function(n,t){return N(v(n,t),{})},v=function(n,t){return Array(2*t+1).join(" ")+n};return this}();
+	</script>
+</head>
+	<body class='extent standard default hide-overflow '>
+		<div id='theme-selector' alt='Click to toggle theme. To enable by default, use theme configuration.' title='Click to toggle theme. To enable by default, use theme configuration.'>
+			<span><i class='material-icons'>desktop_windows</i></span>
+		</div>
+<nav>
+	<div class="nav-wrapper">
+		<a href="#!" class="brand-logo black"><img src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png"></a>
+		<!-- slideout menu -->
+		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
+			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
+						<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></a></li>
+		</ul>
+		<!-- report name -->
+		<span class='report-name'>C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\ExtentReports\extentreport2020-03-02 21_30_26_198.html</span>
+		<!-- report headline -->
+		<span class='report-headline'></span>
+		<!-- nav-right -->
+		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
+			<a href='#!'>
+			<span class='label blue darken-3 suite-start-time'>Mar 2, 2020 09:30:26 PM</span>
+			</a>
+		</ul>
+	</div>
+</nav>		<!-- container -->
+		<div class='container'>
+<div id='test-view' class='view'>
+	<section id='controls'>
+		<div class='controls grey lighten-4'>
+			<!-- test toggle -->
+			<div class='chip transparent'>
+				<a class='dropdown-button tests-toggle' data-activates='tests-toggle' data-constrainwidth='true' data-beloworigin='true' data-hover='true' href='#'>
+				<i class='material-icons'>warning</i> Status
+				</a>
+				<ul id='tests-toggle' class='dropdown-content'>
+										<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
+					<li class='divider'></li>
+					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
+				</ul>
+			</div>
+			<!-- test toggle -->
+			<!-- category toggle -->
+			<!-- category toggle -->
+			<!-- clear filters -->
+			<div class='chip transparent hide'>
+				<a class='' id='clear-filters' alt='Clear Filters' title='Clear Filters'>
+				<i class='material-icons'>close</i> Clear
+				</a>
+			</div>
+			<!-- clear filters -->
+			<!-- enable dashboard -->
+			<div id='toggle-test-view-charts' class='chip transparent'>
+				<a class='pink-text' id='enable-dashboard' alt='Enable Dashboard' title='Enable Dashboard'>
+				<i class='material-icons'>track_changes</i> Dashboard
+				</a>
+			</div>
+			<!-- enable dashboard -->
+			<!-- search -->
+			<div class='chip transparent' alt='Search Tests' title='Search Tests'>
+				<a href="#" class='search-div'>
+				<i class='material-icons'>search</i> Search
+				</a>
+				<div class='input-field left hide'>
+					<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
+				</div>
+			</div>
+			<!-- search -->
+		</div>
+	</section>
+<div id='test-view-charts' class='subview-full'>
+    <div id='charts-row' class='row nm-v nm-h'>
+        <div class='col s12 m12 l12 np-h'>
+            <div class='card-panel nm-v'>
+                <div class='left panel-name'>Tests</div>
+                <div class='chart-box' style="max-height:94px;">
+                    <canvas id='parent-analysis' width='90' height='70'></canvas>
+                </div>
+                <div class='block text-small'>
+                    <span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> test(s) passed</span>
+                </div>
+                <div class='block text-small'>
+                    <span class='strong tooltipped' data-position='top' data-tooltip='100%'>1</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="timeline-chart" class="row nm-v nm-h">
+        <div class="col s12 m12 l12 np-h">
+            <div class="card-panel">
+                <div class='left panel-name'>Timeline (seconds)</div>
+                <div class="chart-box" style="width:98%;max-height:145px;">
+                    <canvas id="timeline" height="120"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>	<div class='subview-left left'>
+		<div class='view-summary'>
+			<ul id='test-collection' class='test-collection'>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='1'>
+					<div class='test-heading'>
+						<span class='test-name'>IndemnityMedical_MA6_Claim</span>
+						<span class='test-time'>Mar 2, 2020 09:30:30 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Mar 2, 2020 09:30:30 PM</span>
+	<span class='label end-time'>Mar 2, 2020 09:36:19 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 5m 49s+222ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:30:32 PM</td>
+				<td class='step-details'>
+						Clicked 'Claims' tab on Dashboard. Verified that CLaims menu list appears.
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:30:32 PM</td>
+				<td class='step-details'>
+						Breeze dashboard is displayed
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:30:33 PM</td>
+				<td class='step-details'>
+						User clicked on Claims tab and selected 'New Claim' option. Verified that New claim wizard is displayed.
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_30_33_501.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_30_33_501.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_30_33_501.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:30:34 PM</td>
+				<td class='step-details'>
+						Verified that Jurisdiction dropdown is available and user selected the value 'Massachusetts' from dropdown
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:30:34 PM</td>
+				<td class='step-details'>
+						Verified that Date of injury field is available and user entered the valid date
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:30:34 PM</td>
+				<td class='step-details'>
+						User selected 'Policy Number' dropdown value
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:30:35 PM</td>
+				<td class='step-details'>
+						User entereded the Policy Number 'WC500-0073247-2019A' in a search text field
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_30_34_943.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_30_34_943.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_30_34_943.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:30:36 PM</td>
+				<td class='step-details'>
+						Verified that relevant record is displayed in the search grid after clicking on Search button
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_30_36_519.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_30_36_519.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_30_36_519.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:30:37 PM</td>
+				<td class='step-details'>
+						User selected the record from Search grid and clicked on Next button
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:30:38 PM</td>
+				<td class='step-details'>
+						System navigates to 'Employee Contact Selection' wizard
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:30:39 PM</td>
+				<td class='step-details'>
+						Enter LastName and First Name. Click on +icon New Criteria. Verified that after clicking on +icon ,one another dropdown is displayed for search criteria where 'Address' is selected by default. Entered Address and clicked on Search button
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:30:40 PM</td>
+				<td class='step-details'>
+						Verified that relevant record is displayed in the 'Employee Contact' search grid
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_30_40_550.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_30_40_550.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_30_40_550.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:30:41 PM</td>
+				<td class='step-details'>
+						Selected the record from Search grid by checking the checkbox corresponding to that record. Click on Next button
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:30:43 PM</td>
+				<td class='step-details'>
+						Verified that system is navigated to 'General Information' wizard on clicking 'Next' button
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_30_43_699.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_30_43_699.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_30_43_699.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:30:47 PM</td>
+				<td class='step-details'>
+						User entered all the  mentioned details under 'General Information', 'Notice', 'Disablitiy Dates' sections. Claim Status- Open and Claim Type -Lost Time'
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:30:49 PM</td>
+				<td class='step-details'>
+						Clicked on Next button
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_30_47_541.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_30_47_541.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_30_47_541.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:30:49 PM</td>
+				<td class='step-details'>
+						Ensured that system is navigated to 'Employee Details'
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_30_49_437.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_30_49_437.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_30_49_437.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:30:50 PM</td>
+				<td class='step-details'>
+						User added the information correctly for Height, Weight, Smoker and Hand Dominance
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:30:53 PM</td>
+				<td class='step-details'>
+						Clicked on Next button
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_30_50_857.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_30_50_857.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_30_50_857.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:30:53 PM</td>
+				<td class='step-details'>
+						Verified that system is navigate to 'Accident details' wizard
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_30_53_447.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_30_53_447.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_30_53_447.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:30:55 PM</td>
+				<td class='step-details'>
+						Entered 'Time of Injury' field. Entered 'Work Start Time' field. Entered LossType. Entered 'Accident/Injury DescriptionNarrative' field. Entered 'Accident Premises' field
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:30:57 PM</td>
+				<td class='step-details'>
+						Clicked on Next button
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_30_55_504.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_30_55_504.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_30_55_504.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:30:57 PM</td>
+				<td class='step-details'>
+						Verified that system is navigated to 'Employment' wizard
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_30_57_419.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_30_57_419.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_30_57_419.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:31:01 PM</td>
+				<td class='step-details'>
+						Entered all the required information on Employment screen
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:31:03 PM</td>
+				<td class='step-details'>
+						Verifed that Employer information : Insured Name, Insured unit, Address, Workplace address  are displayed correctly on Employment screen
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_02_883.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_02_883.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_02_883.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:31:03 PM</td>
+				<td class='step-details'>
+						Clicked on Finish button
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_03_333.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_03_333.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_03_333.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:31:06 PM</td>
+				<td class='step-details'>
+						Verified that Claim number is displayed on next screen after clicking on Finish button. Claim number displayed as: AEI020784
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_05_732.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_05_732.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_05_732.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:31:06 PM</td>
+				<td class='step-details'>
+						Clicked on GenerateFROIForm link under Actions from left menu
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:31:11 PM</td>
+				<td class='step-details'>
+						'Document Created Successfully.' message appears at bottom of screen on clicking 'GenerateFROIForm' link
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_10_902.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_10_902.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_10_902.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:31:14 PM</td>
+				<td class='step-details'>
+						Verified that First Report of Injury form is displayed in new window.
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_14_453.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_14_453.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_14_453.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:31:19 PM</td>
+				<td class='step-details'>
+						Clicked on Financials. selected Reserve option'
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:31:21 PM</td>
+				<td class='step-details'>
+						Verified that under financial summary ,reserve worksheet are all set to '$0.00'
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_20_826.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_20_826.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_20_826.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:31:23 PM</td>
+				<td class='step-details'>
+						Clicked on 'Add Reserves. Verified that Reserve Worksheet opens with  four tabs-Medical,Expense,Legal and Other
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_23_382.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_23_382.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_23_382.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:31:25 PM</td>
+				<td class='step-details'>
+						Clicked on Pencil icon to edit Other Indemnity. Entered Quanity as '2', Unit of Measure as 'Hour' and Rate as '50.00'
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_25_213.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_25_213.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_25_213.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:31:25 PM</td>
+				<td class='step-details'>
+						Clicked on update icon corresponding to Other Indemnity row
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:31:29 PM</td>
+				<td class='step-details'>
+						Verified that 'Target -Available Reserves' is calculated based on the qty., unit of measure and rate entered i.e. Other Indemnity: 2 x 50 =100$
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_28_707.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_28_707.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_28_707.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:31:29 PM</td>
+				<td class='step-details'>
+						Click on Medical Tab
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:31:30 PM</td>
+				<td class='step-details'>
+						Clicked on Pencil icon to edit Physician. Entered Quanity as '2', Unit of Measure as 'Hour' and Rate as '5.00'
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_30_647.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_30_647.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_30_647.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:31:31 PM</td>
+				<td class='step-details'>
+						Clicked on update icon corresponding to Physician row
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:31:34 PM</td>
+				<td class='step-details'>
+						Verified that 'Target -Available Reserves' is calculated based on the qty., unit of measure and rate entered i.e. Physician: 2 x 5 =10$
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_34_123.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_34_123.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_34_123.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:31:36 PM</td>
+				<td class='step-details'>
+						Clicked on Pencil icon to edit Pharmacy. Entered Quanity as '2', Unit of Measure as 'Hour' and Rate as '500.00'
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_35_837.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_35_837.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_35_837.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:31:36 PM</td>
+				<td class='step-details'>
+						Clicked on update icon corresponding to Pharmacy row
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:31:39 PM</td>
+				<td class='step-details'>
+						Verified that 'Target -Available Reserves' is calculated based on the qty., unit of measure and rate entered i.e. Pharmacy: 2 x 500 =1,000$
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_39_304.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_39_304.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_39_304.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:31:41 PM</td>
+				<td class='step-details'>
+						Clicked on Pencil icon to edit Medical. Entered Quanity as '2', Unit of Measure as 'Hour' and Rate as '300.00'
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_41_080.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_41_080.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_41_080.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:31:41 PM</td>
+				<td class='step-details'>
+						Clicked on update icon corresponding to Medical row
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:31:44 PM</td>
+				<td class='step-details'>
+						Verified that 'Target -Available Reserves' is calculated based on the qty., unit of measure and rate entered i.e. Medical: 2 x 300 =600$
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_44_531.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_44_531.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_44_531.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:31:45 PM</td>
+				<td class='step-details'>
+						Verified that Total Medical Adjustment amount becomes $1,610.00
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_45_338.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_45_338.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_45_338.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:31:45 PM</td>
+				<td class='step-details'>
+						Click on Expense Tab
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:31:47 PM</td>
+				<td class='step-details'>
+						Clicked on Pencil icon to edit OtherExpense. Entered Quanity as '1', Unit of Measure as 'Hour' and Rate as '125.00'
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_47_490.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_47_490.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_47_490.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:31:47 PM</td>
+				<td class='step-details'>
+						Clicked on update icon corresponding to OtherExpense row
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:31:49 PM</td>
+				<td class='step-details'>
+						Verified that 'Target -Available Reserves' is calculated based on the qty., unit of measure and rate entered i.e. OtherExpense: 1 x 125 =$600
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_48_966.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_48_966.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_48_966.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:31:50 PM</td>
+				<td class='step-details'>
+						Verified that after saving the record the Total Reserve amount and total reserve Adjustment amount becomes =1,835$
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_50_329.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_50_329.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_50_329.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:31:51 PM</td>
+				<td class='step-details'>
+						Click on Other Tab
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:31:53 PM</td>
+				<td class='step-details'>
+						Clicked on Pencil icon to edit Misc Other. Entered Quanity as '2', Unit of Measure as 'Hour' and Rate as '3.00'
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_53_387.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_53_387.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_53_387.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:31:53 PM</td>
+				<td class='step-details'>
+						Clicked on update icon corresponding to 'Misc Other' row
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:31:55 PM</td>
+				<td class='step-details'>
+						Verified that 'Target -Available Reserves' is calculated based on the qty., unit of measure and rate entered i.e. Misc Other: 2 x 3 =$6
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_54_847.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_54_847.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_54_847.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:31:56 PM</td>
+				<td class='step-details'>
+						Verified that after saving the record the Total Reserve amount and total reserve Adjustment amount becomes =1,835$+6= $1,841
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_56_176.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_56_176.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_56_176.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:31:58 PM</td>
+				<td class='step-details'>
+						Verified that Indemnity corresponding to Incurred column ,amount is '$10.00' and Indemnity corresponding to Reserve Balance column ,amount is '$100.00'
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_58_153.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_58_153.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_31_58_153.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:32:00 PM</td>
+				<td class='step-details'>
+						Mouse Over Financials menu- clicked on Payables
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:32:01 PM</td>
+				<td class='step-details'>
+						Verified that Payables screen opens up
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_32_01_511.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_32_01_511.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_32_01_511.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:32:02 PM</td>
+				<td class='step-details'>
+						Selected the dropdown value as Indemnity and clicked on +Add payable
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:32:03 PM</td>
+				<td class='step-details'>
+						Verified that  Physician payable Entry screen opens upon clicking  +Add payable
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_32_03_402.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_32_03_402.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_32_03_402.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:32:04 PM</td>
+				<td class='step-details'>
+						Selected Paycode as 'Employers Liability Settlement'.
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_32_04_502.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_32_04_502.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_32_04_502.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:32:05 PM</td>
+				<td class='step-details'>
+						Verified that Payable status is 'Hold'. And after selecting paycode, under Reserves section Available Reserves is same as Indemnity Reserves i.e $100
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_32_05_355.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_32_05_355.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_32_05_355.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:32:10 PM</td>
+				<td class='step-details'>
+						Selected Pay Period From Date,Pay Period Through Date,Pay Period Days and Scheduled Pay Date. Entered Requested Amount as '$60'
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_32_10_653.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_32_10_653.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_32_10_653.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:32:11 PM</td>
+				<td class='step-details'>
+						Clicked on Save button of payable screen
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:32:12 PM</td>
+				<td class='step-details'>
+						Verified that on Payables screen , there is entry for that payable enterd i.e. '$60' in prevoius step and status is 'Hold'. Also verified that Pay Code and Reserve Type are displayed correctly in a grid
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_32_12_298.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_32_12_298.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_32_12_298.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:32:14 PM</td>
+				<td class='step-details'>
+						Clicked on icon beside Hold status and clicked on Release
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:32:14 PM</td>
+				<td class='step-details'>
+						Verified that Payable entry status is 'Released' now
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_32_14_422.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_32_14_422.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_32_14_422.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:32:18 PM</td>
+				<td class='step-details'>
+						Verified that under Financial table, payable amount is reflected under Pending payment's column for 'Indemnity' & Available Reserves is Incurred - Pending Payment
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_32_18_262.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_32_18_262.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_32_18_262.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:32:21 PM</td>
+				<td class='step-details'>
+						Mouse Over Financials menu- clicked on Payables
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:32:22 PM</td>
+				<td class='step-details'>
+						Verified that Payables screen opens up
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_32_22_070.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_32_22_070.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_32_22_070.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:32:24 PM</td>
+				<td class='step-details'>
+						Clicked on icon beside Release status and clicked on 'Create Check'
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:32:24 PM</td>
+				<td class='step-details'>
+						Disbursements - Create Claim Disbursements screen opens up
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_32_24_151.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_32_24_151.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_32_24_151.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:32:24 PM</td>
+				<td class='step-details'>
+						Clicked on 'Next' button
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:32:26 PM</td>
+				<td class='step-details'>
+						Disbursement batch screen opens up
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_32_26_069.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_32_26_069.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_32_26_069.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:32:26 PM</td>
+				<td class='step-details'>
+						One record in searched grid is being selected with that much payable amount i.e. $60.00
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_32_26_391.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_32_26_391.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_32_26_391.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:32:26 PM</td>
+				<td class='step-details'>
+						Clicked on 'Generate Batch' button
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:32:31 PM</td>
+				<td class='step-details'>
+						'Batch <number> was created suucessfully' message appears at bottom of screen on clicking 'Generate Batch' button
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_32_31_327.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_32_31_327.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_32_31_327.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:32:37 PM</td>
+				<td class='step-details'>
+						Selected Check Printer Profile
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:32:37 PM</td>
+				<td class='step-details'>
+						Clicked on 'Print Checks' button
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:32:41 PM</td>
+				<td class='step-details'>
+						'Checks printed and batch was automatically posted.' message appears at bottom of screen on clicking 'Check Print' button
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_32_40_972.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_32_40_972.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_32_40_972.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:33:32 PM</td>
+				<td class='step-details'>
+						Searched the Claim for which check is printed after generation of Batch
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_33_32_597.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_33_32_597.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_33_32_597.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:33:35 PM</td>
+				<td class='step-details'>
+						Mouse Over Financials menu- clicked on Payables
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:33:36 PM</td>
+				<td class='step-details'>
+						Verified that on Payables screen, there is entry for that payable enterd in prevoius step and status is 'Paid' now with Amount '$60.00'
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_33_36_090.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_33_36_090.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_33_36_090.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:33:38 PM</td>
+				<td class='step-details'>
+						Mouse Over Financials menu- clicked on Summary
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:33:41 PM</td>
+				<td class='step-details'>
+						Verified that under Financial summary section. Under GROSS and Net of Recoveries corresponding to Paid  column: Medical expense amount is $1,610.00. Pending payment for Medical is Zero
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_33_40_957.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_33_40_957.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_33_40_957.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:33:43 PM</td>
+				<td class='step-details'>
+						Mouse Over Financials menu- clicked on Payables
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:33:45 PM</td>
+				<td class='step-details'>
+						Verified that Payables screen opens up
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_33_44_758.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_33_44_758.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_33_44_758.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:33:45 PM</td>
+				<td class='step-details'>
+						Selected the dropdown value as Physician and clicked on +Add payable
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:33:47 PM</td>
+				<td class='step-details'>
+						Verified that  Physician payable Entry screen opens upon clicking  +Add payable
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_33_47_516.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_33_47_516.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_33_47_516.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:33:55 PM</td>
+				<td class='step-details'>
+						Selected Provider, Paycode. Entered Service FromDate,Service To date, Scheduled Pay Date same as Date of Injury Date
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_33_55_148.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_33_55_148.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_33_55_148.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:33:57 PM</td>
+				<td class='step-details'>
+						Verified that Payable status is 'Hold'. And after selecting paycode, under Reserves section Available Reserves is same as Medical Reserves i.e 1,610
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_33_56_899.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_33_56_899.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_33_56_899.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:33:57 PM</td>
+				<td class='step-details'>
+						Under Details and Adjustments section:  Clicked on + Add detail
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:33:57 PM</td>
+				<td class='step-details'>
+						Verified that Details and Adjustment section opens up
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_33_57_285.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_33_57_285.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_33_57_285.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:33:58 PM</td>
+				<td class='step-details'>
+						Entered the Requested Amount and clicked on save button. Verified that Requested Amount is entered and value is save successfully
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_33_58_331.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_33_58_331.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_33_58_331.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:33:59 PM</td>
+				<td class='step-details'>
+						Clicked on Save button of entire screen
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:34:01 PM</td>
+				<td class='step-details'>
+						Verified that on Payables screen , there is entry for that payable enterd in prevoius step and status is 'Hold'
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_34_01_131.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_34_01_131.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_34_01_131.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:34:03 PM</td>
+				<td class='step-details'>
+						Clicked on icon beside Hold status and clicked on Release
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:34:03 PM</td>
+				<td class='step-details'>
+						Verified that Payable entry status is 'Released' now
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_34_03_298.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_34_03_298.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_34_03_298.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:34:06 PM</td>
+				<td class='step-details'>
+						Verified that payable amount is reflected under Pending payment s column for 'Medical' & Available Reserves is Incurred - Pending Payment
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_34_06_642.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_34_06_642.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_34_06_642.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:34:09 PM</td>
+				<td class='step-details'>
+						Mouse Over Financials menu- clicked on Payables
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:34:10 PM</td>
+				<td class='step-details'>
+						Verified that Payables screen opens up
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_34_10_505.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_34_10_505.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_34_10_505.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:34:12 PM</td>
+				<td class='step-details'>
+						Clicked on icon beside Release status and clicked on 'Create Check'
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:34:12 PM</td>
+				<td class='step-details'>
+						Disbursements - Create Claim Disbursements screen opens up
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_34_12_586.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_34_12_586.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_34_12_586.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:34:13 PM</td>
+				<td class='step-details'>
+						Clicked on 'Next' button
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:34:14 PM</td>
+				<td class='step-details'>
+						Disbursement batch screen opens up
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_34_14_540.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_34_14_540.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_34_14_540.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:34:15 PM</td>
+				<td class='step-details'>
+						one record in search grid is being selected with that much payable amount i.e. $100.00
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_34_14_859.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_34_14_859.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_34_14_859.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:34:15 PM</td>
+				<td class='step-details'>
+						Clicked on 'Generate Batch' button
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:34:20 PM</td>
+				<td class='step-details'>
+						'Batch <number> was created suucessfully' message appears at bottom of screen on clicking 'Generate Batch' button
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_34_19_792.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_34_19_792.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_34_19_792.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:34:26 PM</td>
+				<td class='step-details'>
+						Selected Check Printer Profile
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:34:26 PM</td>
+				<td class='step-details'>
+						Clicked on 'Print Checks' button
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:34:29 PM</td>
+				<td class='step-details'>
+						'Checks printed and batch was automatically posted.' message appears at bottom of screen on clicking 'Check Print' button
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_34_29_433.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_34_29_433.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_34_29_433.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:35:21 PM</td>
+				<td class='step-details'>
+						Searched the Claim for which check is printed after generation of Batch
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_35_21_383.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_35_21_383.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_35_21_383.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:35:23 PM</td>
+				<td class='step-details'>
+						Mouse Over Financials menu- clicked on Payables
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:35:25 PM</td>
+				<td class='step-details'>
+						Verified that on Payables screen , there is entry for that payable enterd in prevoius step and status is 'Paid' now with Amount '$100.00'
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_35_24_939.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_35_24_939.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_35_24_939.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:35:27 PM</td>
+				<td class='step-details'>
+						Mouse Over Financials menu- clicked on Summary
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:35:30 PM</td>
+				<td class='step-details'>
+						Verified that under Financial summary section. Under GROSS and Net of Recoveries corresponding to Paid  column: Medical expense amount is $1,610.00. Pending payment for Medical is Zero
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_35_30_347.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_35_30_347.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_35_30_347.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:35:32 PM</td>
+				<td class='step-details'>
+						Mouse Over Financials menu- clicked on Payables
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:35:34 PM</td>
+				<td class='step-details'>
+						Verified that Payables screen opens up
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_35_33_757.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_35_33_757.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_35_33_757.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:35:34 PM</td>
+				<td class='step-details'>
+						Selected the dropdown value as 'Other' and clicked on +Add payable
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:35:36 PM</td>
+				<td class='step-details'>
+						Verified that 'Other payable Entry' screen opens upon clicking  +Add payable
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_35_36_438.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_35_36_438.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_35_36_438.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:35:44 PM</td>
+				<td class='step-details'>
+						Selected Provider, Paycode as 'Miscellaneous Expense'. Entered Service FromDate,Service To date, Scheduled Pay Date same as Date of Injury Date
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_35_44_204.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_35_44_204.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_35_44_204.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:35:46 PM</td>
+				<td class='step-details'>
+						Verified that Payable status is 'Hold'. And after selecting paycode, under Reserves section Available Reserves is same as Medical Reserves i.e 1,610
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_35_46_072.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_35_46_072.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_35_46_072.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:35:46 PM</td>
+				<td class='step-details'>
+						Under Details and Adjustments section:  Clicked on + Add detail
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:35:46 PM</td>
+				<td class='step-details'>
+						Verified tthat Details and Adjustment section opens up
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_35_46_452.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_35_46_452.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_35_46_452.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:35:47 PM</td>
+				<td class='step-details'>
+						Entered the Requested Amount and clicked on save button. Verified that Requested Amount is entered and value is save successfully
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_35_47_532.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_35_47_532.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_35_47_532.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:35:52 PM</td>
+				<td class='step-details'>
+						Clicked on Save button of entire screen
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:35:53 PM</td>
+				<td class='step-details'>
+						Verified that on Payables screen , there is entry for that payable enterd in prevoius step and status is 'Hold'
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_35_53_260.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_35_53_260.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_35_53_260.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:35:55 PM</td>
+				<td class='step-details'>
+						Clicked on icon beside Hold status and clicked on Release
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:35:55 PM</td>
+				<td class='step-details'>
+						Verified that Payable entry status is 'Released' now
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_35_55_401.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_35_55_401.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_35_55_401.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:35:59 PM</td>
+				<td class='step-details'>
+						Verified that payable amount is reflected under Pending payment s column for 'Expense' & Available Reserves is Incurred - Pending Payment
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_35_59_184.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_35_59_184.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_35_59_184.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:36:02 PM</td>
+				<td class='step-details'>
+						Mouse Over Financials menu- clicked on Payables
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:36:02 PM</td>
+				<td class='step-details'>
+						Verified that Payables screen opens up
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_36_02_152.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_36_02_152.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_36_02_152.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:36:04 PM</td>
+				<td class='step-details'>
+						Clicked on icon beside Release status and clicked on 'Create Check'
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:36:04 PM</td>
+				<td class='step-details'>
+						Disbursements - Create Claim Disbursements screen opens up
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_36_04_233.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_36_04_233.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_36_04_233.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:36:04 PM</td>
+				<td class='step-details'>
+						Clicked on 'Next' button
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:36:05 PM</td>
+				<td class='step-details'>
+						Disbursement batch screen opens up
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_36_05_635.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_36_05_635.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_36_05_635.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:36:06 PM</td>
+				<td class='step-details'>
+						one record in search grid is being selected with that much payable amount i.e. $50.00
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_36_05_957.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_36_05_957.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_36_05_957.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:36:06 PM</td>
+				<td class='step-details'>
+						Clicked on 'Generate Batch' button
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:36:11 PM</td>
+				<td class='step-details'>
+						'Batch <number> was created suucessfully' message appears at bottom of screen on clicking 'Generate Batch' button
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_36_10_901.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_36_10_901.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_36_10_901.png'>
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:36:17 PM</td>
+				<td class='step-details'>
+						Selected Check Printer Profile
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:36:17 PM</td>
+				<td class='step-details'>
+						Clicked on 'Print Checks' button
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>9:36:19 PM</td>
+				<td class='step-details'>
+						
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:36:19 PM</td>
+				<td class='step-details'>
+						All test steps of Test case 'IndemnityMedical_MA6_Claim'  are verified
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+						<ul class='screenshots'>
+							<li><img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_30_30_666.png' src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_30_30_666.png' data-src='C:\Users\rsingh3\Desktop\Selenium\Breeze\Breeze\Screenshot\screen 2020-03-02 21_30_30_666.png'></li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- subview left -->
+	<div class='subview-right left'>
+		<div class='view-summary'>
+			<h5 class='test-name'></h5>
+			<div id='step-filters' class="right">
+				<span class="blue-text" status="info" alt="info" title="info"><i class="material-icons">info_outline</i></span>
+				<span class="green-text" status="pass" alt="pass" title="pass"><i class="material-icons">check_circle</i></span>
+				<span class="red-text" status="fail" alt="fail" title="fail"><i class="material-icons">cancel</i></span>
+				<span class="red-text text-darken-4" status="fatal" alt="fatal" title="fatal"><i class="material-icons">cancel</i></span>
+				<span class="pink-text text-lighten-1" status="error" alt="error" title="error"><i class="material-icons">error</i></span>
+				<span class="orange-text" alt="warning" status="warning" title="warning"><i class="material-icons">warning</i></span>
+				<span class="teal-text" status="skip" alt="skip" title="skip"><i class="material-icons">redo</i></span>
+				<span status="clear" alt="Clear filters" title="Clear filters"><i class="material-icons">clear</i></span>
+			</div>
+		</div>
+	</div>
+	<!-- subview right -->
+</div>
+<!-- test view --><!-- category view --><!-- exception view --><div id='dashboard-view' class='view hide'>
+	<div class='card-panel transparent np-v'>
+		<h5>Dashboard</h5>
+
+		<div class='row'>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Tests
+					<div class='panel-lead'>1</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Steps
+					<div class='panel-lead'>0</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Start
+					<div class='panel-lead'>Mar 2, 2020 09:30:26 PM</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+			 		End
+			 		<div class='panel-lead'>Mar 2, 2020 09:36:23 PM</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Time Taken
+					<div class='panel-lead'>0h 5m 57s+317ms</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- dashboard view -->
+<!-- testrunner-logs view -->		</div>
+		<!-- container -->
+		<script>
+			var statusGroup = {
+                parentCount: 1,
+				passParent: 0,
+				failParent: 1,
+				fatalParent: 0,
+				errorParent: 0,
+				warningParent: 0,
+				skipParent: 0,
+				exceptionsParent: 1,
+				childCount: 0,
+				passChild: 0,
+				failChild: 0,
+				fatalChild: 0,
+				errorChild: 0,
+				warningChild: 0,
+				skipChild: 0,
+				infoChild: 0,
+				debugChild: 0,
+				exceptionsChild: 0,
+				grandChildCount: 0,
+				passGrandChild: 0,
+				failGrandChild: 0,
+				fatalGrandChild: 0,
+				errorGrandChild: 0,
+				warningGrandChild: 0,
+				skipGrandChild: 0,
+				infoGrandChild: 0,
+				debugGrandChild: 0,
+				exceptionsGrandChild: 0,
+			};
+		</script>
+		<script>
+			var timeline = {
+			        "IndemnityMedical_MA6_Claim":349.222
+			};
+		</script>
+		<script src='https://cdn.rawgit.com/extent-framework/extent-github-cdn/c23457b/v3html/js/extent.js' type='text/javascript'></script>
+		<script type='text/javascript'>
+		</script>
+	</body>
+</html>

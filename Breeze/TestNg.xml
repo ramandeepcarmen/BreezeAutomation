@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+ <test name="MedicalOnly_NC1_Claim">
+     <classes>
+      <class name="com.Breeze.MedicalOnly_NC1"></class>     
+    </classes>
+  </test>
+
+
+  <test name="IndemnityMedical_SC2">
+     <classes>
+      <class name="com.Breeze.IndemnityMedical_SC2"></class>     
+    </classes>
+  </test>
+  
+    <test name="MedicalOnly_TN3">
+     <classes>
+      <class name="com.Breeze.MedicalOnly_TN3"></class>     
+    </classes>
+  </test>
+
+    <test name="IndemnityMedical_VA4">
+     <classes>
+      <class name="com.Breeze.IndemnityMedical_VA4"></class>     
+    </classes>
+  </test>
+  
+
+  
+</suite> 
+
+
+

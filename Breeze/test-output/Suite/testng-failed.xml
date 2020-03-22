@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="IndemnityMedical_MA6(failed)">
+    <classes>
+      <class name="com.Breeze.IndemnityMedical_MA6">
+        <methods>
+          <include name="Logout"/>
+          <include name="setUp"/>
+          <include name="IndemnityMedical_MA6_Claim"/>
+        </methods>
+      </class> <!-- com.Breeze.IndemnityMedical_MA6 -->
+    </classes>
+  </test> <!-- IndemnityMedical_MA6(failed) -->
+</suite> <!-- Failed suite [Suite] -->
